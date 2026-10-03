@@ -1,0 +1,1700 @@
+{
+  "userSettings": {
+    "stdruntime": {
+      "autoAuth": true,
+      "lastAuth": {
+        "details": [
+          {
+            "type": "password"
+          }
+        ],
+        "name": "std",
+        "displayName": "Default",
+        "visible": true
+      },
+      "lastProfile": "105b3fc3-8d79-4e19-b982-2fb095f44927",
+      "locale": "RUSSIAN",
+      "oauthAccessToken": "eyJhbGciOiJFUzI1NiJ9.eyJpc3MiOiJMYXVuY2hTZXJ2ZXIiLCJzdWIiOiJEYW5paWxfTG9waXVzIiwidXVpZCI6ImIwOTI2MTE2LWI0YmYtMTFmMS05ZDNkLTM0NWE2MGZjOTUzZiIsImV4cCI6MTc5MTAwOTEzNH0.erkw203IQ_geq4DrHyAJKTwz3CZZHNM3yAWzk1z-Ki4idzH4A4R1LhSIijBljSfsclW55yQDXsqev7Rq_jTqRQ",
+      "oauthRefreshToken": "Daniil_Lopius.30235cf7e0bacee958288081d257d0d9f9c7dcd567f5621f7056ecada86fd285",
+      "oauthExpire": 1791009133689,
+      "profileSettings": {
+        "105b3fc3-8d79-4e19-b982-2fb095f44927": {
+          "ram": 8168,
+          "debug": false,
+          "fullScreen": false,
+          "autoEnter": false,
+          "javaPath": "C:\\Users\\zapri\\AppData\\Roaming\\Minefite\\updates\\java21-windows-x86-64"
+        }
+      },
+      "profiles": [
+        {
+          "title": "Mirtan",
+          "uuid": "105b3fc3-8d79-4e19-b982-2fb095f44927",
+          "version": "1.19.4+",
+          "info": "Мрачный, крупный материк со своей собственной историей. Вас ждет насыщенное средневековое-фентези, наполненное контентом и живыми событиями. Здесь вам предстоит отыгрывать персонажа, соответствуя Role Play жанру игры.",
+          "dir": "Mirtan-4.0",
+          "sortIndex": 1,
+          "assetIndex": "1.19.4",
+          "assetDir": "assets",
+          "update": [
+            "servers.dat",
+            "config/minemetrics.toml",
+            "config/Tabby.json",
+            "config/freecam.json",
+            "config/customsplashscreen",
+            "config/ibeeditor-common.json",
+            "config/legendarytooltips-common.toml",
+            "config/WindowTitleChanger/config.json",
+            "config/WindowTitleChanger/config.json5",
+            "config/itemborders-common.toml",
+            "config/watut-client.toml",
+            "config/watut-common.toml",
+            "config/chattabs.json",
+            "config/entity_texture_features.json",
+            "resourcepacks/Minefite RP additional_music",
+            "resourcepacks/Minefite RP additional",
+            "resourcepacks/Minefite RP Mobs&Skills",
+            "resourcepacks/Minefite RP Misc",
+            "resourcepacks/Conquest_1.20.zip",
+            "resourcepacks/Excalibur_V1.20.zip",
+            "figura/model_files/Custom",
+            "figura/model_files/Free",
+            "figura/model_files/Donate"
+          ],
+          "updateExclusions": [
+            ".fabric",
+            "logs",
+            "saves",
+            "shaderpacks",
+            "mods/mfkoren.jar"
+          ],
+          "updateShared": [],
+          "updateVerify": [
+            "libraries",
+            "natives",
+            "mods",
+            "versions",
+            "figura/model_files",
+            "minecraft.jar"
+          ],
+          "updateOptional": [
+            {
+              "actions": [
+                {
+                  "args": [
+                    "-XstartOnFirstThread",
+                    "-Dorg.lwjgl.util.Debug=true"
+                  ],
+                  "type": "jvmArgs"
+                }
+              ],
+              "mark": false,
+              "visible": false,
+              "name": "MacOSArgs",
+              "triggersList": [
+                {
+                  "os": "MACOSX",
+                  "required": false,
+                  "inverted": false,
+                  "type": "os"
+                }
+              ],
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/continuity-3.0.0+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Continuity",
+              "info": "Сглаживание текстур на стыках",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/plasmovoice-fabric-1.19.4-2.1.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "PlasmoVoice",
+              "info": "Голосовой чат",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/figura-0.0.8-1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Figura",
+              "info": "Кастомные модели игроков",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/iris-mc1.19.4-1.6.11.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Iris",
+              "info": "Движок для поддержки шейдеров в игре. \r\nНагружает клиент, не для слабых ПК.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/AmbientSounds_FABRIC_v5.2.19_mc1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "AmbientSounds",
+              "info": "Добавление атмосферных природных звуков. \r\nМожет снижать производительность.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/journeymap-1.19.4-5.9.8-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Journey Map",
+              "info": "Карта с удобным функционалом.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/firstperson-fabric-2.4.6-mc1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "First Person Model",
+              "info": "Красивый и удобный вид от первого лица.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/freecam-fabric-1.3.2+mc1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Freecam",
+              "info": "Удобная камера для красивых скриншотов и скриншот-ситуаций.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/horse-stats-vanilla-4.3.0.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Horse Stats Vanilla",
+              "info": "Отображение характеристик у ездовых животных в их инвентаре.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/wakes-0.2.3+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Wakes",
+              "info": "Эффекты на воде от плавания, лодок и т.д.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/litematica-fabric-1.19.4-0.14.5.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Litematica",
+              "info": "Добавляет возможность использовать схемы для строительства.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/illuminations-1_10_12.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Illuminations",
+              "info": "Множество новых и красивых партиклов.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/ItemBorders-1.19.4-fabric-1.2.0.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Item Borders",
+              "info": "Красивая обводка вокруг предметов с редкостью.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/LegendaryTooltips-1.19.4-fabric-1.4.3.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Epic Tooltips",
+              "info": "Красивая обводка стат предметов в инвентаре.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/ItemPhysicLite_FABRIC_v1.6.1_mc1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "ItemPhysicLite",
+              "info": "Реалистичное отображение выпадающих и брошенных предметов.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/PresenceFootsteps-1.8.2-1.19.4-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "PresenceFootsteps",
+              "info": "Атмосферные звуки шагов по различным поверхностям.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/lambdynamiclights-2.3.1+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "LambDynamicLights",
+              "info": "Отображение света в руках и при движении без шейдеров, \r\nМожет снижать фпс. С шейдерами выключить!",
+              "conflictFile": [
+                {
+                  "name": "Iris"
+                }
+              ],
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/recursive-resources-2.4.3+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Minefite Recursive Resources",
+              "info": "Инструмент упрощения выбора ресурспаков.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/emotecraft-for-MC1.19.4-2.2.7-b.build.50-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Emotecraft X",
+              "info": "Анимации персонажей.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/horsecolors-1.19.4-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Animations",
+              "info": "Обновленные, измененные и улучшенные анимации персонажа. \r\nНеобходимо включить Emotecraft X",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/replaymod-1.19.4-2.6.13.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Replay Mod",
+              "info": "Инструмент записи и редактирования видео со встроенным в игру \r\nредактором. Обзор видео с любого ракурса и инструменты таймлапса.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/emotes_replay_compat-1.0.2.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Replay + Emotecraft",
+              "info": "Поддержка записи эмоции Emotecraft X. \r\nНеобходимо включить Replay Mod и Emotecraft X",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/chat_heads-0_10_18-fabric-1_19_4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Chat Heads",
+              "info": "Добавляет головы игроков к сообщениям в чате. Удобнее отличать различные \r\nсообщения в чате.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/betterf3-6_0_3-fabric-1_19_4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Better F3",
+              "info": "Подробная информация в панели F3.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/fabricskyboxes-0.7.2+mc1.19.4.jar": "",
+                    "mods/fsb-interop-1.3.3+mc1.19.4-build.45.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Fabric SkyBoxes",
+              "info": "Поддерживает работу HD неба для тех, кто не использует шейдеры.",
+              "conflictFile": [
+                {
+                  "name": "Iris"
+                }
+              ],
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/do-a-barrel-roll-3.3.7+1.19.4-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Do a Barrel Roll",
+              "info": "Добавляет реалистичное отображение полёта на элитрах.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/morechathistory-1.3.0-1.20.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "More Chat History",
+              "info": "Позволяет клиенту сохранять больше информации в чате без удаления.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/mixintrace-1.1.1+1.17.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Mixin Trace",
+              "info": "Подробная информация об ошибках Mixin. Тем, у кого вылетает клиент.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/MinefiteChat.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "ChatTabs",
+              "info": "Разделение чата на подчаты.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/equipmentcompare-1.19.4-fabric-1.3.6.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Equipment Compare",
+              "info": "Позволяет сравнивать оружие и броню между собой.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/shulkerboxtooltip-fabric-3.4.5+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Shulker Tooltip",
+              "info": "Позволяет просматривать содержимое шалкеров прямо из инвентаря.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/armorstatues-1.0.0.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Armor Statues",
+              "info": "Тех. админ инструмент для ОП по редактированию стоек.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/cmdkeybind-1_6_2-1_19_4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Command Macros",
+              "info": "Позволяет делать бинды команд на определенные кнопки. \r\nУже имеет предустановленные кнопки.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/panoramica_fabric_1.2.1-1_MC_1.19-1.20.1.jar": "",
+                    "mods/konkrete_fabric_1.6.1_MC_1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Panoramica",
+              "info": "Инструмент для создания скриншотов-панорам.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/ibeeditor-1_19_4-2_2_2-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "IBE Editor",
+              "info": "Админ-инструмент для тестирования тегов. Только с ОП.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/spark-1.10.37-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Spark",
+              "info": "Админ инструмент анализа нагрузки на клиент.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/indium-1.0.19+mc1.19.4.jar": "",
+                    "mods/reeses_sodium_options-1.6.3+mc1.19.4-build.90.jar": "",
+                    "mods/sodium-blendingregistry-0.4.10.2.jar": "",
+                    "mods/sodium-extra-0.4.18+mc1.19.4-build.100.jar": "",
+                    "mods/sodium-fabric-mc1.19.4-0.4.10.3+build.24.jar": "",
+                    "mods/sodium-shadowy-path-blocks-3.4.1.jar": "",
+                    "mods/continuity-3.0.0+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Sodium",
+              "info": "Sodium Stable 0.4.10.3 (Minefite Edition, 31.03.2026)",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/ferritecore-5.2.0-fabric.jar": "",
+                    "mods/feytweaks-1_19_4-1_2_6.jar": "",
+                    "mods/vmp-fabric-mc1.19.4-0.2.0+beta.7.73-all.jar": "",
+                    "mods/structure_layout_optimizer-fabric-1.0.10.jar": "",
+                    "mods/modernfix-fabric-5_7_2_mc1_19_4.jar": "",
+                    "mods/entity-view-distance-1_1_1_1_19_4.jar": "",
+                    "mods/betterfpsdist-fabric-1.19.4-2.5.jar": "",
+                    "mods/memoryleakfix-fabric-1.17-1.1.5.jar": "",
+                    "mods/entityculling-fabric-1.7.4-mc1.19.4.jar": "",
+                    "mods/dynamic-fps-3.6.3minecraft-1.19.4-fabric.jar": "",
+                    "mods/starlight-1.1.1fabric.ae22326.jar": "",
+                    "mods/smoothboot-fabric-1.19.4-1.7.0.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Моды оптимизации 1",
+              "info": "Пак модов, которые могут сделать игру более оптимизированной",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/fzzy_config-0.7.0+1.19.4.jar": "",
+                    "mods/particle_core-0.2.6+1.19.4.jar": "",
+                    "mods/BadOptimizations-2_1_4-1_19_4.jar": "",
+                    "mods/lunade-fastanim-1_6-1_19_4_1.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Моды оптимизации 2",
+              "info": "Пак модов, которые могут сделать игру более оптимизированной",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/beta/MineMetrics-fabric-1.19.4-1.0.0-beta.jar": "mods/MineMetrics-fabric-1.19.4-1.0.0-beta.jar",
+                    "mods/beta/architectury-8.2.91-fabric.jar": "mods/architectury-8.2.91-fabric.jar"
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": false,
+              "name": "MineMetrics",
+              "info": "Сбор анонимной метрики клиента",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            }
+          ],
+          "jvmArgs": [
+            "-XX:+DisableAttachMechanism",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+UseG1GC",
+            "-XX:MaxGCPauseMillis=50",
+            "-XX:G1NewSizePercent=20",
+            "-XX:G1MaxNewSizePercent=30",
+            "-XX:+DisableExplicitGC",
+            "-XX:+ParallelRefProcEnabled",
+            "-XX:+PerfDisableSharedMem",
+            "-XX:MaxTenuringThreshold=8",
+            "-XX:CompileThreshold=1000",
+            "-XX:+TieredCompilation",
+            "-Dfml.ignorePatchDiscrepancies=true",
+            "-Dfml.ignoreInvalidMinecraftCertificates=true",
+            "-DFabricMcEmu=net.minecraft.client.main.Main"
+          ],
+          "classPath": [
+            "libraries",
+            "minecraft.jar"
+          ],
+          "modulePath": [],
+          "modules": [],
+          "altClassPath": [],
+          "clientArgs": [],
+          "compatClasses": [],
+          "properties": {
+            "url": "https://minefite.net/",
+            "profileVersion": "1.19+",
+            "gameTheme": "Средневековье",
+            "point1": " ",
+            "point2": " ",
+            "point3": " ",
+            "point4": " ",
+            "point5": " ",
+            "point6": " ",
+            "point7": " "
+          },
+          "servers": [
+            {
+              "name": "Anthalor",
+              "serverAddress": "playanthalor.minefite.net",
+              "serverPort": 25565,
+              "isDefault": true,
+              "protocol": -1,
+              "socketPing": true
+            }
+          ],
+          "classLoaderConfig": "LAUNCHER",
+          "flags": [],
+          "recommendJavaVersion": 21,
+          "minJavaVersion": 18,
+          "maxJavaVersion": 999,
+          "settings": {
+            "ram": 0,
+            "autoEnter": false,
+            "fullScreen": false
+          },
+          "limited": false,
+          "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient"
+        },
+        {
+          "title": "Anthalor",
+          "uuid": "979fe154-f4cf-4416-893c-10bde2576830",
+          "version": "1.19.4+",
+          "info": "Новый, злачный материк с манящей историей. Насыщенное средневековое-фентези для любителей приключений. Здесь вам предстоит отыгрывать персонажа, соответствуя Role Play жанру игры.",
+          "dir": "Anthalor-1.0",
+          "sortIndex": 2,
+          "assetIndex": "1.19.4",
+          "assetDir": "assets",
+          "update": [
+            "servers.dat",
+            "config/minemetrics.toml",
+            "config/Tabby.json",
+            "config/freecam.json5",
+            "config/customsplashscreen/backgrounds",
+            "config/ibeeditor-common.json",
+            "config/legendarytooltips-common.toml",
+            "config/itemborders-common.toml",
+            "config/watut-client.toml",
+            "config/watut-common.toml",
+            "config/chattabs.json",
+            "config/entity_texture_features.json",
+            "resourcepacks/Anthalor additional",
+            "resourcepacks/Anthalor additional_music",
+            "resourcepacks/Conquest_1.20.zip",
+            "resourcepacks/Excalibur_V1.20.zip",
+            "figura/model_files/Custom",
+            "figura/model_files/Free",
+            "figura/model_files/Donate"
+          ],
+          "updateExclusions": [
+            ".fabric",
+            "logs",
+            "saves",
+            "shaderpacks",
+            "mods/mfkoren.jar"
+          ],
+          "updateShared": [],
+          "updateVerify": [
+            "libraries",
+            "natives",
+            "mods",
+            "versions",
+            "figura/model_files",
+            "minecraft.jar"
+          ],
+          "updateOptional": [
+            {
+              "actions": [
+                {
+                  "args": [
+                    "-XstartOnFirstThread",
+                    "-Dorg.lwjgl.util.Debug=true"
+                  ],
+                  "type": "jvmArgs"
+                }
+              ],
+              "mark": false,
+              "visible": false,
+              "name": "MacOSArgs",
+              "triggersList": [
+                {
+                  "os": "MACOSX",
+                  "required": false,
+                  "inverted": false,
+                  "type": "os"
+                }
+              ],
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/continuity-3.0.0+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Continuity",
+              "info": "Сглаживание текстур на стыках",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/plasmovoice-fabric-1.19.4-2.1.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "PlasmoVoice",
+              "info": "Голосовой чат",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/figura-0.0.8-1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Figura",
+              "info": "Кастомные модели игроков",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/iris-mc1.19.4-1.6.11.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Iris",
+              "info": "Движок для поддержки шейдеров в игре. \r\nНагружает клиент, не для слабых ПК.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/AmbientSounds_FABRIC_v5.2.19_mc1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "AmbientSounds",
+              "info": "Добавление атмосферных природных звуков. \r\nМожет снижать производительность.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/journeymap-1.19.4-5.9.8-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Journey Map",
+              "info": "Карта с удобным функционалом.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/firstperson-fabric-2.4.6-mc1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "First Person Model",
+              "info": "Красивый и удобный вид от первого лица.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/freecam-fabric-1.3.2+mc1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Freecam",
+              "info": "Удобная камера для красивых скриншотов и скриншот-ситуаций.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/horse-stats-vanilla-4.3.0.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Horse Stats Vanilla",
+              "info": "Отображение характеристик у ездовых животных в их инвентаре.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/wakes-0.2.3+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Wakes",
+              "info": "Эффекты на воде от плавания, лодок и т.д.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/litematica-fabric-1.19.4-0.14.5.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Litematica",
+              "info": "Добавляет возможность использовать схемы для строительства.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/illuminations-1_10_12.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Illuminations",
+              "info": "Множество новых и красивых партиклов.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/ItemBorders-1.19.4-fabric-1.2.0.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Item Borders",
+              "info": "Красивая обводка вокруг предметов с редкостью.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/LegendaryTooltips-1.19.4-fabric-1.4.3.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Epic Tooltips",
+              "info": "Красивая обводка стат предметов в инвентаре.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/ItemPhysicLite_FABRIC_v1.6.1_mc1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "ItemPhysicLite",
+              "info": "Реалистичное отображение выпадающих и брошенных предметов.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/PresenceFootsteps-1.8.2-1.19.4-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "PresenceFootsteps",
+              "info": "Атмосферные звуки шагов по различным поверхностям.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/lambdynamiclights-2.3.1+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "LambDynamicLights",
+              "info": "Отображение света в руках и при движении без шейдеров, \r\nМожет снижать фпс. С шейдерами выключить!",
+              "conflictFile": [
+                {
+                  "name": "Iris"
+                }
+              ],
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/recursive-resources-2.4.3+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Minefite Recursive Resources",
+              "info": "Инструмент упрощения выбора ресурспаков.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/emotecraft-for-MC1.19.4-2.2.7-b.build.50-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Emotecraft X",
+              "info": "Анимации персонажей.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/replaymod-1.19.4-2.6.13.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Replay Mod",
+              "info": "Инструмент записи и редактирования видео со встроенным в игру \r\nредактором. Обзор видео с любого ракурса и инструменты таймлапса.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/emotes_replay_compat-1.0.2.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Replay + Emotecraft",
+              "info": "Поддержка записи эмоции Emotecraft X. \r\nНеобходимо включить Replay Mod и Emotecraft X",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/chat_heads-0_10_18-fabric-1_19_4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Chat Heads",
+              "info": "Добавляет головы игроков к сообщениям в чате. Удобнее отличать различные \r\nсообщения в чате.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/betterf3-6_0_3-fabric-1_19_4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Better F3",
+              "info": "Подробная информация в панели F3.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/fabricskyboxes-0.7.2+mc1.19.4.jar": "",
+                    "mods/fsb-interop-1.3.3+mc1.19.4-build.45.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Fabric SkyBoxes",
+              "info": "Поддерживает работу HD неба для тех, кто не использует шейдеры.",
+              "conflictFile": [
+                {
+                  "name": "Iris"
+                }
+              ],
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/do-a-barrel-roll-3.3.7+1.19.4-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Do a Barrel Roll",
+              "info": "Добавляет реалистичное отображение полёта на элитрах.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/morechathistory-1.3.0-1.20.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "More Chat History",
+              "info": "Позволяет клиенту сохранять больше информации в чате без удаления.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/mixintrace-1.1.1+1.17.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Mixin Trace",
+              "info": "Подробная информация об ошибках Mixin. Тем, у кого вылетает клиент.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/equipmentcompare-1.19.4-fabric-1.3.6.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Equipment Compare",
+              "info": "Позволяет сравнивать оружие и броню между собой.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/shulkerboxtooltip-fabric-3.4.5+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Mirtan Shulker Tooltip",
+              "info": "Позволяет просматривать содержимое шалкеров прямо из инвентаря.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/armorstatues-1.0.0.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Armor Statues",
+              "info": "Тех. админ инструмент для ОП по редактированию стоек.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/cmdkeybind-1_6_2-1_19_4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Command Macros",
+              "info": "Позволяет делать бинды команд на определенные кнопки. \r\nУже имеет предустановленные кнопки.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/panoramica_fabric_1.2.1-1_MC_1.19-1.20.1.jar": "",
+                    "mods/konkrete_fabric_1.6.1_MC_1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Panoramica",
+              "info": "Инструмент для создания скриншотов-панорам.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/ibeeditor-1_19_4-2_2_2-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "IBE Editor",
+              "info": "Админ-инструмент для тестирования тегов. Только с ОП.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/spark-1.10.37-fabric.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Spark",
+              "info": "Админ инструмент анализа нагрузки на клиент.",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/indium-1.0.19+mc1.19.4.jar": "",
+                    "mods/reeses_sodium_options-1.6.3+mc1.19.4-build.90.jar": "",
+                    "mods/sodium-blendingregistry-0.4.10.2.jar": "",
+                    "mods/sodium-extra-0.4.18+mc1.19.4-build.100.jar": "",
+                    "mods/sodium-fabric-mc1.19.4-0.4.10.3+build.24.jar": "",
+                    "mods/sodium-shadowy-path-blocks-3.4.1.jar": "",
+                    "mods/continuity-3.0.0+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": true,
+              "visible": true,
+              "name": "Sodium",
+              "info": "Sodium Stable 0.4.10.3 (Minefite Edition, 31.03.2026)",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/ferritecore-5.2.0-fabric.jar": "",
+                    "mods/feytweaks-1_19_4-1_2_6.jar": "",
+                    "mods/vmp-fabric-mc1.19.4-0.2.0+beta.7.73-all.jar": "",
+                    "mods/structure_layout_optimizer-fabric-1.0.10.jar": "",
+                    "mods/modernfix-fabric-5_7_2_mc1_19_4.jar": "",
+                    "mods/entity-view-distance-1_1_1_1_19_4.jar": "",
+                    "mods/betterfpsdist-fabric-1.19.4-2.5.jar": "",
+                    "mods/memoryleakfix-fabric-1.17-1.1.5.jar": "",
+                    "mods/entityculling-fabric-1.7.4-mc1.19.4.jar": "",
+                    "mods/dynamic-fps-3.6.3minecraft-1.19.4-fabric.jar": "",
+                    "mods/starlight-1.1.1fabric.ae22326.jar": "",
+                    "mods/smoothboot-fabric-1.19.4-1.7.0.jar": "",
+                    "mods/enhancedblockentities-0.9+1.19.4.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Моды оптимизации 1",
+              "info": "Пак модов, которые могут сделать игру более оптимизированной",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/fzzy_config-0.7.0+1.19.4.jar": "",
+                    "mods/particle_core-0.2.6+1.19.4.jar": "",
+                    "mods/BadOptimizations-2_1_4-1_19_4.jar": "",
+                    "mods/lunade-fastanim-1_6-1_19_4_1.jar": ""
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": true,
+              "name": "Моды оптимизации 2",
+              "info": "Пак модов, которые могут сделать игру более оптимизированной",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            },
+            {
+              "actions": [
+                {
+                  "files": {
+                    "mods/beta/MineMetrics-fabric-1.19.4-1.0.0-beta.jar": "mods/MineMetrics-fabric-1.19.4-1.0.0-beta.jar",
+                    "mods/beta/architectury-8.2.91-fabric.jar": "mods/architectury-8.2.91-fabric.jar"
+                  },
+                  "type": "file"
+                }
+              ],
+              "mark": false,
+              "visible": false,
+              "name": "MineMetrics",
+              "info": "Сбор анонимной метрики клиента",
+              "subTreeLevel": 1,
+              "isPreset": false,
+              "limited": false
+            }
+          ],
+          "jvmArgs": [
+            "-XX:+DisableAttachMechanism",
+            "-XX:+UnlockExperimentalVMOptions",
+            "-XX:+UseG1GC",
+            "-XX:MaxGCPauseMillis=50",
+            "-XX:G1NewSizePercent=20",
+            "-XX:G1MaxNewSizePercent=30",
+            "-XX:+DisableExplicitGC",
+            "-XX:+ParallelRefProcEnabled",
+            "-XX:+PerfDisableSharedMem",
+            "-XX:MaxTenuringThreshold=8",
+            "-XX:CompileThreshold=1000",
+            "-XX:+TieredCompilation",
+            "-Dfml.ignorePatchDiscrepancies=true",
+            "-Dfml.ignoreInvalidMinecraftCertificates=true",
+            "-DFabricMcEmu=net.minecraft.client.main.Main"
+          ],
+          "classPath": [
+            "libraries",
+            "minecraft.jar"
+          ],
+          "modulePath": [],
+          "modules": [],
+          "altClassPath": [],
+          "clientArgs": [],
+          "compatClasses": [],
+          "properties": {
+            "url": "https://minefite.net/",
+            "profileVersion": "1.19+",
+            "gameTheme": "Средневековье",
+            "point1": " ",
+            "point2": " ",
+            "point3": " ",
+            "point4": " ",
+            "point5": " ",
+            "point6": " ",
+            "point7": " "
+          },
+          "servers": [
+            {
+              "name": "979fe154-f4cf-4416-893c-10bde2576830",
+              "serverAddress": "playanthalor.minefite.net",
+              "serverPort": 25575,
+              "isDefault": true,
+              "protocol": -1,
+              "socketPing": true
+            }
+          ],
+          "classLoaderConfig": "LAUNCHER",
+          "flags": [],
+          "recommendJavaVersion": 21,
+          "minJavaVersion": 18,
+          "maxJavaVersion": 999,
+          "settings": {
+            "ram": 0,
+            "autoEnter": false,
+            "fullScreen": false
+          },
+          "limited": false,
+          "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient"
+        }
+      ],
+      "type": "stdruntime"
+    }
+  },
+  "features": []
+}
